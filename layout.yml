@@ -1,68 +1,74 @@
 suit_band:
+  width: :deck
+  # stroke_width: 0
+  height: 190
   x: 0
   y: 0
-  width: :deck
-  stroke_width: 0
-  height: 190
   fill_color: 'light blue'
 
 title:
   x: 90
   y: 90
-  width: 635
+  # width: 635
   height: 50
   align: center
   font: 'Futura 50'
 
-  # The "cut line", without rounded corners
-cut:
-  x: 37.5
-  y: 37.5
-  width: 56mm
-  height: 88.9mm
+# The "cut line", without rounded corners
+bleed:
+  x: '3.2mm' #this is the Gamecrafter's recommended bleed size
+  y: '3.2mm' #this is the Gamecrafter's recommended bleed size
+  # fill_color: 'light green'
+  width: '56mm'
+  height: '86mm'
+  stroke_color: 'red'
 
 # The "safe zone" as defined by TheGameCrafter poker cards
 safe:
   x: 75
   y: 75
-  width: 675
-  height: 975
+  # width: 675
+  # height: 975
   radius: 16
   dash: 3 3
-
-main_image:
-  x: 300
-  y: 300
-  width: 190
-  height: 190
-  align: center
+#
+# main_image:
+#   x: 300
+#   y: 300
+#   width: 190
+#   height: 190
+#   align: center
 
 description:
   x: 110
-  width: 550
+  width: 530
   align: left
   markup: true
   # height: 275
-  valign: middle
-  # hint: :red
-  font: 'Futura 130'
+  font: 'Futura 40'
+  valign: :middle
+  hint: :red
 
 
 bid:
   extends: description
   y: 350
 
-special_power:
+power:
   extends: bid
-  font_size: 45
   ellipsize: :none
-  spacing: 2
+  # spacing: 2
+  font_size: 40
   y: +=180
 
 vp:
   extends: bid
-  y: +=370
+  y: +=400
+#
+# vp negative sign:
+#   extends: vp
+#   x: -=45
 
-vp negative sign:
-  extends: vp
-  x: -=45
+description_icon:
+  height: 110
+  width: 110

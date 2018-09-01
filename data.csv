@@ -1,0 +1,9 @@
+bid_value,vp_value,special_power
+1,7,reassign a 5/6/7/8 card to any of 5/6/7/8
+2,4,duplicate a special power
+3,2,change a card's suit
+4,1,cash in this card
+5,-1,take card from personal deck
+6,-2,take card from auction discards
+7,-4,take card from auction display
+8,-7, take top card from auction deck, then reshuffle

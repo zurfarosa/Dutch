@@ -1,18 +1,11 @@
 suit_band:
   width: :deck
   # stroke_width: 0
-  height: 190
+  height: 200
   x: 0
   y: 0
   fill_color: 'light blue'
 
-title:
-  x: 90
-  y: 90
-  # width: 635
-  height: 50
-  align: center
-  font: 'Futura 50'
 
 # The "cut line", without rounded corners
 bleed:
@@ -25,50 +18,78 @@ bleed:
 
 # The "safe zone" as defined by TheGameCrafter poker cards
 safe:
-  x: 75
-  y: 75
+  x: '6.35mm'
+  y: '6.35mm' # i.e. 75 pixels
   # width: 675
   # height: 975
   radius: 16
   dash: 3 3
-#
-# main_image:
-#   x: 300
-#   y: 300
-#   width: 190
-#   height: 190
-#   align: center
+
 
 description:
-  x: 110
-  width: 530
+  x: 170
+  width: 430
   align: left
   markup: true
   # height: 275
-  font: 'Futura 40'
+  font: 'Baskerville 50'
   valign: :middle
-  hint: :red
+  # hint: :red
 
 
 bid:
-  extends: description
-  y: 350
+  extends: bid_circle
+  x: += 75
+  y: += 45
+  font: 'Baskerville 100'
 
-power:
-  extends: bid
-  ellipsize: :none
-  # spacing: 2
-  font_size: 40
-  y: +=180
+bid_circle:
+  width: 200
+  height: 200
+  fill_color: 'gold'
+  x: '3.6mm'
+  y: '3.6mm'
+  file: 'icons/noun_coin_938416.png'
+  # coin by W. X. Chee from the Noun Project
 
-vp:
-  extends: bid
-  y: +=400
 #
 # vp negative sign:
 #   extends: vp
 #   x: -=45
 
 description_icon:
-  height: 110
-  width: 110
+  height: 80
+  width: 80
+
+
+vp_frame:
+  width: '25mm'
+  height: '25mm'
+  y: 400
+  x: '18.7mm' #(62.4/2) - (25/2)
+  # x: '3.2mm'
+  file: 'icons/noun_Laurel Wreath.svg'
+
+vp:
+  extends:
+    - vp_frame
+  y: +=60
+  width: '56mm'
+  x: '3.2mm'
+  font: 'Baskerville 90'
+  align: center
+
+power:
+  extends: vp
+  ellipsize: :none
+  spacing: 2
+  font_size: 50
+  width: '40mm'
+  x: '11.2mm' #(62.4/2) - (40/2)
+  y: +=300
+
+power_icon:
+  extends:
+    - power
+    - description_icon
+  x: -=90

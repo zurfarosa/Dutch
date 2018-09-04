@@ -1,9 +1,9 @@
 bid,vp,power
-1,7,assign any 5/6/7/8 special power to any 5/6/7/8 card
-2,4,duplicate a special power
-3,2,change a card's suit
-4,1,cash in any card
-5,-1,take card from personal deck
-6,-2,take card from auction discards
-7,-4,take card from auction display
-8,-7, take top card from auction deck then reshuffle
+1,7,
+2,4,
+3,2,
+4,1,
+5,-1,Cash in any card of same suit
+6,-2,Change a card's suit or duplicate its special power
+7,-4,Take card of same suit from auction discards
+8,-7,Take card of same suit from personal deck

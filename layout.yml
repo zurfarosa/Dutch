@@ -4,7 +4,7 @@ suit_band:
   height: 200
   x: 0
   y: 0
-  fill_color: 'light blue'
+  stroke_width: 0
 
 
 # The "cut line", without rounded corners
@@ -15,6 +15,7 @@ bleed:
   width: '56mm'
   height: '86mm'
   stroke_color: 'red'
+  radius: '2mm'
 
 # The "safe zone" as defined by TheGameCrafter poker cards
 safe:
@@ -47,8 +48,8 @@ bid_circle:
   width: 200
   height: 200
   fill_color: 'gold'
-  x: '3.6mm'
-  y: '3.6mm'
+  x: '6mm'
+  y: '6mm'
   file: 'icons/noun_coin_938416.png'
   # coin by W. X. Chee from the Noun Project
 

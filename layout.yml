@@ -15,6 +15,7 @@ bleed:
   width: '56mm'
   height: '86mm'
   stroke_color: 'red'
+  # stroke_width: 0
   radius: '2mm'
 
 # The "safe zone" as defined by TheGameCrafter poker cards

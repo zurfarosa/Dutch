@@ -41,9 +41,10 @@ description:
 
 bid:
   extends: bid_circle
-  x: += 75
+  # x: += 5
   y: += 45
   font: 'Baskerville 100'
+  align: :center
 
 bid_circle:
   width: 200

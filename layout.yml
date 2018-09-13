@@ -71,12 +71,12 @@ vp_frame:
   y: 400
   x: '18.7mm' #(62.4/2) - (25/2)
   # x: '3.2mm'
-  file: 'icons/noun_Laurel Wreath.svg'
+  file: 'icons/noun_Laurel Wreath_499498.png'
 
 vp:
   extends:
     - vp_frame
-  y: +=60
+  y: +=80
   width: '56mm'
   x: '3.2mm'
   font: 'Baskerville 90'

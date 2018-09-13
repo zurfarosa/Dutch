@@ -30,7 +30,7 @@ Squib::Deck.new cards: data['bid'].size, layout: 'layout.yml', width:'62.4mm', h
   # safe_zone layout:'safe'
   text layout:'bid', str: data['bid'].map{|i| "#{i}"}
 
-  svg layout:'vp_frame'
+  png layout:'vp_frame'
   text layout:'vp', str: data['vp'].map{|i| "#{i}"}
   text layout:'power', str: data['power'].map{|i| "#{i}" if i != nil}
   save_png prefix:"card_", trim:'3.2mm', trim_radius:'2mm'

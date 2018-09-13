@@ -1,51 +1,51 @@
 bid,vp,power,suit,colour
 1,11,,blue,light blue
 1,11,,green,#6B8E23
-1,11,,red,#CD2626
-1,11,,orange,#ffd27f
+1,11,,pink,light pink
+1,11,,orange,burnt orange
 1,11,,grey,#D3D3D3
 2,7,,blue,light blue
 2,7,,green,#6B8E23
-2,7,,red,#CD2626
-2,7,,orange,#ffd27f
+2,7,,pink,light pink
+2,7,,orange,burnt orange
 2,7,,grey,#D3D3D3
 3,4,,blue,light blue
 3,4,,green,#6B8E23
-3,4,,red,#CD2626
-3,4,,orange,#ffd27f
+3,4,,pink,light pink
+3,4,,orange,burnt orange
 3,4,,grey,#D3D3D3
 4,2,,blue,light blue
 4,2,,green,#6B8E23
-4,2,,red,#CD2626
-4,2,,orange,#ffd27f
+4,2,,pink,light pink
+4,2,,orange,burnt orange
 4,2,,grey,#D3D3D3
 5,1,,blue,light blue
 5,1,,green,#6B8E23
-5,1,,red,#CD2626
-5,1,,orange,#ffd27f
+5,1,,pink,light pink
+5,1,,orange,burnt orange
 5,1,,grey,#D3D3D3
 6,-1,Cash in any card of same suit or change a card's suit,blue,light blue
 6,-1,Cash in any card of same suit or change a card's suit,green,#6B8E23
-6,-1,Cash in any card of same suit or change a card's suit,red,#CD2626
-6,-1,Cash in any card of same suit or change a card's suit,orange,#ffd27f
+6,-1,Cash in any card of same suit or change a card's suit,pink,light pink
+6,-1,Cash in any card of same suit or change a card's suit,orange,burnt orange
 6,-1,Cash in any card of same suit or change a card's suit,grey,#D3D3D3
 7,-2,Duplicate a power or change a card's suit,blue,light blue
 7,-2,Duplicate a power or change a card's suit,green,#6B8E23
-7,-2,Duplicate a power or change a card's suit,red,#CD2626
-7,-2,Duplicate a power or change a card's suit,orange,#ffd27f
+7,-2,Duplicate a power or change a card's suit,pink,light pink
+7,-2,Duplicate a power or change a card's suit,orange,burnt orange
 7,-2,Duplicate a power or change a card's suit,grey,#D3D3D3
 8,-4,Take card of same suit from auction discards,blue,light blue
 8,-4,Take card of same suit from auction discards,green,#6B8E23
-8,-4,Take card of same suit from auction discards,red,#CD2626
-8,-4,Take card of same suit from auction discards,orange,#ffd27f
+8,-4,Take card of same suit from auction discards,pink,light pink
+8,-4,Take card of same suit from auction discards,orange,burnt orange
 8,-4,Take card of same suit from auction discards,grey,#D3D3D3
 9,-7,Take card of same suit from personal deck,blue,light blue
 9,-7,Take card of same suit from personal deck,green,#6B8E23
-9,-7,Take card of same suit from personal deck,red,#CD2626
-9,-7,Take card of same suit from personal deck,orange,#ffd27f
+9,-7,Take card of same suit from personal deck,pink,light pink
+9,-7,Take card of same suit from personal deck,orange,burnt orange
 9,-7,Take card of same suit from personal deck,grey,#D3D3D3
 10,-11,Take card of same suit from auction discards OR personal deck,blue,light blue
 10,-11,Take card of same suit from auction discards OR personal deck,green,#6B8E23
-10,-11,Take card of same suit from auction discards OR personal deck,red,#CD2626
-10,-11,Take card of same suit from auction discards OR personal deck,orange,#ffd27f
+10,-11,Take card of same suit from auction discards OR personal deck,pink,light pink
+10,-11,Take card of same suit from auction discards OR personal deck,orange,burnt orange
 10,-11,Take card of same suit from auction discards OR personal deck,grey,#D3D3D3

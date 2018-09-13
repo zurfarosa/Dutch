@@ -1,11 +1,14 @@
 suit_band:
   width: :deck
   # stroke_width: 0
-  height: 200
+  height: '17mm'
   x: 0
   y: 0
   stroke_width: 0
 
+mini_suit_band:
+  extends: suit_band
+  height: '8.5mm'
 
 # The "cut line", without rounded corners
 bleed:
@@ -27,10 +30,21 @@ safe:
   radius: 16
   dash: 3 3
 
+# The "safe zone" as defined by TheGameCrafter poker cards
+inner_border:
+  x: '6.35mm'
+  y: '21mm'
+  width: '49.7mm' # 62.4 - (6.35 x 2)
+  height: 700
+  stroke_color: 'light blue'
+  radius: 16
+  dash: 3 3
+
+
 
 description:
-  x: 170
-  width: 430
+  x: '14.45mm'
+  width: '36.55mm'
   align: left
   markup: true
   # height: 275
@@ -39,60 +53,100 @@ description:
   # hint: :red
 
 
-bid:
+
+bid_value:
   extends: bid_circle
-  # x: += 5
   y: += 45
   font: 'Baskerville 100'
   align: :center
 
+mini_bid_value:
+  extends: mini_bid_circle
+  font: 'Baskerville 50'
+  y: += 22
+  align: :center
+
 bid_circle:
-  width: 200
-  height: 200
-  fill_color: 'gold'
-  x: '6mm'
-  y: '6mm'
+  width: '17mm'
+  height: '17mm'
+  x: '7mm'
+  y: '7mm'
   file: 'icons/noun_coin_938416.png'
   # coin by W. X. Chee from the Noun Project
 
-#
-# vp negative sign:
-#   extends: vp
-#   x: -=45
-
-description_icon:
-  height: 80
-  width: 80
+mini_bid_circle:
+  extends: bid_circle
+  width: '8.5mm'
+  height: '8.5mm'
+  x: '3mm'
+  y: '3mm'
 
 
 vp_frame:
   width: '25mm'
-  height: '25mm'
-  y: 400
+  height: '22mm'
+  y: '34mm'
   x: '18.7mm' #(62.4/2) - (25/2)
   # x: '3.2mm'
-  file: 'icons/noun_Laurel Wreath_499498.png'
+  file: 'icons/noun_Laurel Wreath_499498.svg'
 
-vp:
+mini_vp_frame:
+  extends: vp_frame
+  width: '12.5mm'
+  height: '11mm'
+  y: '17mm'
+  x: '9.3mm'
+
+vp_value:
   extends:
     - vp_frame
-  y: +=80
+  y: +=55
   width: '56mm'
   x: '3.2mm'
   font: 'Baskerville 90'
   align: center
 
-power:
-  extends: vp
+mini_vp_value:
+  extends:
+    - mini_vp_frame
+  y: += 27
+  width: '28mm'
+  x: '1.6mm'
+  font: 'Baskerville 45'
+  align: center
+
+
+power_text:
+  extends: vp_value
   ellipsize: :none
   spacing: 2
   font_size: 50
   width: '40mm'
   x: '11.2mm' #(62.4/2) - (40/2)
-  y: +=300
+  y: += 300
 
-power_icon:
-  extends:
-    - power
-    - description_icon
-  x: -=90
+mini_power_text:
+  extends: mini_vp_value
+  ellipsize: :none
+  spacing: 2
+  font_size: 25
+  width: '20mm'
+  x: '5.6mm' #(62.4/2) - (40/2)
+  y: += 150
+
+mini_border:
+  extends: bleed
+  stroke_color: 'black'
+
+png_dims:
+  trim: '3.2mm'
+  trim_radius: '2mm'
+
+mini_png_dims:
+  trim: '1.6mm'
+  # trim_radius: '1mm'
+
+pdf_dims:
+  width: '210mm'
+  height: '297mm'
+  trim: '3.2mm'

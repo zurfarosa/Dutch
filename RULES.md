@@ -4,18 +4,25 @@ What is this game about? How many players?
 
 # Objective
 
-What is the object of the game?
+During the game, players buy new cards to add to their personal deck of cards. Each card has an associated victory point value. At the end of the game, the player with the most victory points in his deck at the end of the game is the winner. 
 
 # Components
 
-What are the components? List them out.
+40 cards, divided into 4 suits (green, red, pink, blue) of 10 cards each.
+
+# Set-up
 
 # Gameplay
+## Bidding
+## Using powers
+## Purchasing
+## Restocking the auction lay
+## Drawing a new hand of cards
 
-What does each turn look like? Describe a turn. 
+# End of the game
 
-# Scoring
+The game ends when there auction deck has been exhausted, and either there are no remaining auction display cards, or neither of the two players wants to purchases the ones that remain.
 
-How is victory assigned?
+At this point, players add their discards to their personal deck and add up their total VPs. In addition, a bonus ten VPs is awarded for any suit which a player has at least six of.
 
-
+The player with the most victory points is the winner. If players are tied for the highest score, the player with the fewest cards wins.

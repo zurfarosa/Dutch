@@ -10,6 +10,8 @@ During the game, players buy new cards to add to their personal deck of cards. E
 
 40 cards, divided into 4 suits (green, red, pink, blue) of 10 cards each.
 
+![G](rules_images/mini_card_16.png)
+
 # Set-up
 
 # Gameplay

@@ -21,6 +21,13 @@ bleed:
   # stroke_width: 0
   radius: '2mm'
 
+mini_border:
+  stroke_color: 'black'
+  width: :deck
+  height: :deck
+  stroke_width: 3
+  # radius: '2mm'
+
 # The "safe zone" as defined by TheGameCrafter poker cards
 safe:
   x: '6.35mm'
@@ -134,17 +141,10 @@ mini_power_text:
   x: '5.6mm' #(62.4/2) - (40/2)
   y: += 150
 
-mini_border:
-  extends: bleed
-  stroke_color: 'black'
 
 png_dims:
   trim: '3.2mm'
   trim_radius: '2mm'
-
-mini_png_dims:
-  trim: '1.6mm'
-  # trim_radius: '1mm'
 
 pdf_dims:
   width: '210mm'

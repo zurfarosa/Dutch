@@ -1,32 +1,20 @@
 suit_band:
   width: :deck
-  # stroke_width: 0
   height: '17mm'
   x: 0
   y: 0
   stroke_width: 0
 
-mini_suit_band:
-  extends: suit_band
-  height: '8.5mm'
-
 # The "cut line", without rounded corners
 bleed:
   x: '3.2mm' #this is the Gamecrafter's recommended bleed size
   y: '3.2mm' #this is the Gamecrafter's recommended bleed size
-  # fill_color: 'light green'
   width: '56mm'
   height: '86mm'
-  stroke_color: 'red'
-  # stroke_width: 0
+  stroke_color: 'black'
+  stroke_width: 1
   radius: '2mm'
 
-mini_border:
-  stroke_color: 'black'
-  width: :deck
-  height: :deck
-  stroke_width: 3
-  # radius: '2mm'
 
 # The "safe zone" as defined by TheGameCrafter poker cards
 safe:
@@ -47,47 +35,21 @@ inner_border:
   radius: 16
   dash: 3 3
 
-
-
-description:
-  x: '14.45mm'
-  width: '36.55mm'
-  align: left
-  markup: true
-  # height: 275
-  font: 'Baskerville 50'
-  valign: :middle
-  # hint: :red
-
-
-
 bid_value:
   extends: bid_circle
   y: += 45
   font: 'Baskerville 100'
   align: :center
 
-mini_bid_value:
-  extends: mini_bid_circle
-  font: 'Baskerville 50'
-  y: += 22
-  align: :center
-
 bid_circle:
+  extends: vp_frame
   width: '17mm'
   height: '17mm'
-  x: '7mm'
-  y: '7mm'
+  # x: '22.7mm' #(62.4/2) - (17/2)
+  y: '8.5mm'
+  x: '8.5mm'
   file: 'icons/noun_coin_938416.png'
   # coin by W. X. Chee from the Noun Project
-
-mini_bid_circle:
-  extends: bid_circle
-  width: '8.5mm'
-  height: '8.5mm'
-  x: '3mm'
-  y: '3mm'
-
 
 vp_frame:
   width: '25mm'
@@ -96,13 +58,6 @@ vp_frame:
   x: '18.7mm' #(62.4/2) - (25/2)
   # x: '3.2mm'
   file: 'icons/noun_Laurel Wreath_499498.svg'
-
-mini_vp_frame:
-  extends: vp_frame
-  width: '12.5mm'
-  height: '11mm'
-  y: '17mm'
-  x: '9.3mm'
 
 vp_value:
   extends:
@@ -113,16 +68,6 @@ vp_value:
   font: 'Baskerville 90'
   align: center
 
-mini_vp_value:
-  extends:
-    - mini_vp_frame
-  y: += 27
-  width: '28mm'
-  x: '1.6mm'
-  font: 'Baskerville 45'
-  align: center
-
-
 power_text:
   extends: vp_value
   ellipsize: :none
@@ -131,6 +76,29 @@ power_text:
   width: '40mm'
   x: '11.2mm' #(62.4/2) - (40/2)
   y: += 300
+
+png_dims:
+  trim: '3.2mm'
+  trim_radius: '2mm'
+
+pdf_dims:
+  width: '210mm'
+  height: '297mm'
+  trim: '3.2mm'
+
+
+
+
+mini_suit_band:
+  extends: suit_band
+  height: '6.9mm'
+
+mini_bid_circle:
+  extends: bid_circle
+  width: '6.9mm'
+  height: '6.9mm'
+  x: '3.45mm'
+  y: '3.45mm'
 
 mini_power_text:
   extends: mini_vp_value
@@ -142,11 +110,32 @@ mini_power_text:
   y: += 150
 
 
-png_dims:
-  trim: '3.2mm'
-  trim_radius: '2mm'
+mini_vp_value:
+  extends:
+    - mini_vp_frame
+  y: += 27
+  width: '28mm'
+  x: '1.6mm'
+  font: 'Baskerville 45'
+  align: center
 
-pdf_dims:
-  width: '210mm'
-  height: '297mm'
-  trim: '3.2mm'
+
+mini_bid_value:
+  extends: mini_bid_circle
+  font: 'Baskerville 35'
+  y: += 15
+  align: :center
+
+mini_vp_frame:
+  extends: vp_frame
+  width: '12.5mm'
+  height: '11mm'
+  y: '17mm'
+  x: '9.3mm'
+
+mini_border:
+  stroke_color: 'black'
+  width: :deck
+  height: :deck
+  stroke_width: 3
+  # radius: '2mm'

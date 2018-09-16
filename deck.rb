@@ -1,4 +1,7 @@
 require 'squib'
+require 'rubygems'
+require 'rmagick'
+
 
 suits = CSV.read 'suits.csv'
 data = CSV.read 'data.csv'
@@ -21,7 +24,7 @@ end
 
 data = Squib.csv file:'data_expanded.csv'
 
-#create the main deck of cards
+# create the main deck of cards
 # Squib::Deck.new cards: data['bid'].size, layout: 'layout.yml', width:'62.4mm', height:'92.4mm' do
 #   background color: :white
 #   rect layout: 'suit_band', fill_color: data['colour']
@@ -38,17 +41,26 @@ data = Squib.csv file:'data_expanded.csv'
 #   save_pdf file: "cards.pdf", width: '210mm', height: '297mm', trim: '3.2mm'#layout:'pdf_dims'
 # end
 
-#now create the mini-cards without power text for creating diagrams for the instructions
-Squib::Deck.new cards: data['bid'].size, layout: 'layout.yml', width:'31.2mm', height:'46.2mm'  do
-  background color: :white
-  rect layout: 'mini_suit_band', fill_color: data['colour']
-  png layout: 'mini_bid_circle'
-  rect layout: 'mini_border'
-  text layout:'mini_bid_value', str: data['bid'].map{|i| "#{i}"}
-  #
-  svg layout:'mini_vp_frame'
-  text layout:'mini_vp_value', str: data['vp'].map{|i| "#{i}"}
-  text layout:'mini_power_text', str: data['power'].map{|i| "#{i}" if i != nil}
-
-  save_png prefix:"mini_card_"
+Dir.glob('_output/*.png') do |path|
+  img = Magick::Image::read(path)[0]
+  img = img.scale(0.5)
+  file_stem = path[-11..-5]
+  img.write("rules_images/mini_" + file_stem + '.gif')
 end
+
+
+
+# #now create the mini-cards without power text for creating diagrams for the instructions
+# Squib::Deck.new cards: data['bid'].size, layout: 'layout.yml', width:'31.2mm', height:'46.2mm'  do
+#   background color: :white
+#   rect layout: 'mini_suit_band', fill_color: data['colour']
+#   png layout: 'mini_bid_circle'
+#   rect layout: 'mini_border'
+#   text layout:'mini_bid_value', str: data['bid'].map{|i| "#{i}"}
+#   #
+#   svg layout:'mini_vp_frame'
+#   text layout:'mini_vp_value', str: data['vp'].map{|i| "#{i}"}
+#   text layout:'mini_power_text', str: data['power'].map{|i| "#{i}" if i != nil}
+#
+#   save_png prefix:"mini_card_"
+# end

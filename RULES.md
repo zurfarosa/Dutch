@@ -10,7 +10,7 @@ During the game, players buy new cards to add to their personal deck of cards. E
 
 40 cards, divided into 4 suits (green, red, pink, blue) of 10 cards each.
 
-A sample card is shown below. The number in the top-left-hand corner is the **bid value**. The number in the laurel wreath is the card's **victory points (VPs)**. The text beneath the VP value is the card's **special power**.
+A sample card is shown below. The number in the top-left-hand corner is the **bid value**. The number in the laurel wreath is the card's **victory point (VP) value**. The text beneath the VP value is the card's **special power**.
 
 ![8-bid blue card](rules_images/mini_card_35.gif)
 

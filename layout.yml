@@ -11,10 +11,16 @@ bleed:
   y: '3.2mm' #this is the Gamecrafter's recommended bleed size
   width: '56mm'
   height: '86mm'
-  stroke_color: 'black'
+  stroke_color: 'red'
   stroke_width: 1
   radius: '2mm'
 
+# Black border for my mini-images (used as an alternative to 'bleed')
+mini_border:
+  x: '3.2mm' #this is the Gamecrafter's recommended bleed size
+  y: '3.2mm' #this is the Gamecrafter's recommended bleed size
+  width: '56mm'
+  height: '86mm'
 
 # The "safe zone" as defined by TheGameCrafter poker cards
 safe:
@@ -22,16 +28,6 @@ safe:
   y: '6.35mm' # i.e. 75 pixels
   # width: 675
   # height: 975
-  radius: 16
-  dash: 3 3
-
-# The "safe zone" as defined by TheGameCrafter poker cards
-inner_border:
-  x: '6.35mm'
-  y: '21mm'
-  width: '49.7mm' # 62.4 - (6.35 x 2)
-  height: 700
-  stroke_color: 'light blue'
   radius: 16
   dash: 3 3
 
@@ -81,61 +77,11 @@ png_dims:
   trim: '3.2mm'
   trim_radius: '2mm'
 
+mini_png_dims:
+  trim: '3.2mm'
+  # trim_radius: '2mm'
+
 pdf_dims:
   width: '210mm'
   height: '297mm'
   trim: '3.2mm'
-
-
-
-
-mini_suit_band:
-  extends: suit_band
-  height: '6.9mm'
-
-mini_bid_circle:
-  extends: bid_circle
-  width: '6.9mm'
-  height: '6.9mm'
-  x: '3.45mm'
-  y: '3.45mm'
-
-mini_power_text:
-  extends: mini_vp_value
-  ellipsize: :none
-  spacing: 2
-  font_size: 25
-  width: '20mm'
-  x: '5.6mm' #(62.4/2) - (40/2)
-  y: += 150
-
-
-mini_vp_value:
-  extends:
-    - mini_vp_frame
-  y: += 27
-  width: '28mm'
-  x: '1.6mm'
-  font: 'Baskerville 45'
-  align: center
-
-
-mini_bid_value:
-  extends: mini_bid_circle
-  font: 'Baskerville 35'
-  y: += 15
-  align: :center
-
-mini_vp_frame:
-  extends: vp_frame
-  width: '12.5mm'
-  height: '11mm'
-  y: '17mm'
-  x: '9.3mm'
-
-mini_border:
-  stroke_color: 'black'
-  width: :deck
-  height: :deck
-  stroke_width: 3
-  # radius: '2mm'

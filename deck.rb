@@ -1,6 +1,8 @@
 require 'squib'
 require 'rubygems'
 require 'rmagick'
+# require 'fileutils'
+
 
 
 suits = CSV.read 'suits.csv'
@@ -25,42 +27,27 @@ end
 data = Squib.csv file:'data_expanded.csv'
 
 # create the main deck of cards
-# Squib::Deck.new cards: data['bid'].size, layout: 'layout.yml', width:'62.4mm', height:'92.4mm' do
-#   background color: :white
-#   rect layout: 'suit_band', fill_color: data['colour']
-#   png layout: 'bid_circle'
-#   rect layout: 'bleed'
-#   # rect layout: 'inner_border'
-#   # safe_zone layout:'safe'
-#   text layout:'bid_value', str: data['bid'].map{|i| "#{i}"}
-#
-#   svg layout:'vp_frame'
-#   text layout:'vp_value', str: data['vp'].map{|i| "#{i}"}
-#   text layout:'power_text', str: data['power'].map{|i| "#{i}" if i != nil}
-#   save_png prefix:"card_", layout:'png_dims'
-#   save_pdf file: "cards.pdf", width: '210mm', height: '297mm', trim: '3.2mm'#layout:'pdf_dims'
-# end
+Squib::Deck.new cards: data['bid'].size, layout: 'layout.yml', width:'62.4mm', height:'92.4mm' do
+  background color: :white
+  rect layout: 'suit_band', fill_color: data['colour']
+  png layout: 'bid_circle'
+  rect layout: 'mini_border' #use mini_border layout for rules images, otherwise use bleed for actual cards
+  # rect layout: 'inner_border'
+  # safe_zone layout:'safe'
+  text layout:'bid_value', str: data['bid'].map{|i| "#{i}"}
 
-Dir.glob('_output/*.png') do |path|
-  img = Magick::Image::read(path)[0]
-  img = img.scale(0.5)
-  file_stem = path[-11..-5]
-  img.write("rules_images/mini_" + file_stem + '.gif')
+  svg layout:'vp_frame'
+  text layout:'vp_value', str: data['vp'].map{|i| "#{i}"}
+  text layout:'power_text', str: data['power'].map{|i| "#{i}" if i != nil}
+  save_png prefix:"card_", layout:'png_dims'
+  save_png dir:"rules_images", prefix:"card_", layout:'mini_png_dims'
+  save_pdf file: "cards.pdf", width: '210mm', height: '297mm', trim: '3.2mm'#layout:'pdf_dims'
 end
 
-
-
-# #now create the mini-cards without power text for creating diagrams for the instructions
-# Squib::Deck.new cards: data['bid'].size, layout: 'layout.yml', width:'31.2mm', height:'46.2mm'  do
-#   background color: :white
-#   rect layout: 'mini_suit_band', fill_color: data['colour']
-#   png layout: 'mini_bid_circle'
-#   rect layout: 'mini_border'
-#   text layout:'mini_bid_value', str: data['bid'].map{|i| "#{i}"}
-#   #
-#   svg layout:'mini_vp_frame'
-#   text layout:'mini_vp_value', str: data['vp'].map{|i| "#{i}"}
-#   text layout:'mini_power_text', str: data['power'].map{|i| "#{i}" if i != nil}
-#
-#   save_png prefix:"mini_card_"
-# end
+Dir.glob('rules_images/*.png') do |path|
+  img = Magick::Image::read(path)[0]
+  img = img.scale(0.33).border(1,1,'black')
+  file_stem = path[-11..-5]
+  img.write("rules_images/mini_" + file_stem + '.gif')
+  File.delete path
+end

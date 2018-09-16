@@ -10,7 +10,9 @@ During the game, players buy new cards to add to their personal deck of cards. E
 
 40 cards, divided into 4 suits (green, red, pink, blue) of 10 cards each.
 
-![G](rules_images/mini_card_16.png)
+A sample card is shown below. The number in the top-left-hand corner is the **bid value**. The number in the laurel wreath is the card's victory points.
+
+![1-bid grey card](rules_images/mini_card_04.png)
 
 # Set-up
 

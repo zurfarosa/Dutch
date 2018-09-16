@@ -12,7 +12,7 @@ During the game, players buy new cards to add to their personal deck of cards. E
 
 A sample card is shown below. The number in the top-left-hand corner is the **bid value**. The number in the laurel wreath is the card's victory points.
 
-![1-bid grey card](rules_images/mini_card_04.png)
+![8-bid blue card](rules_images/mini_card_35.gif)
 
 # Set-up
 

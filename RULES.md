@@ -86,7 +86,7 @@ After the winner of the phase 2 bid has performed phases 3 and 4, the loser must
 
 Any unpurchased cards will remain in the auction display, but will be moved along so that they occupy the lowest cost positions, with no gaps remaining between careds. The auction display is then restocked with new cards from the auction deck. 
 
-## Drawing a new hand of cards
+## 7. Drawing a new hand of cards
 
 Finally, each player draws a new hand of five cards from the top of their auction deck. One of the five cards will of course be the card discarded during phase 1. 
 

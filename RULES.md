@@ -19,7 +19,7 @@ Note that only cards with a bid value between six and ten have a special power.
 # Set-up
 Each player is dealt a personal deck of eight cards. Players may look at these cards, but must then shuffle them and lay them face down in front of them - the personal deck may not be inspected again during the game. Each player takes the top five cards from their personal deck into their hand - they may look at these cards, and should not let their opponent see them.  
 
-The 24 remaining cards form the face-down auction deck. Five cards are then drawn from the auction deck and placed face-up in a row next to the auction deck. All these auction display cards have a cost - the card closest to the auction deck costs 5 cards, the next closest costs 4 cards, and so on. The card furthest from the auction deck costs only 1 card. 
+The 24 remaining cards form the face-down auction deck. Six cards are then drawn from the auction deck and placed face-up in a row next to the auction deck. All these auction display cards have a cost - the card closest to the auction deck costs 5 cards, the next closest costs 4 cards, and so on. The card furthest from the auction deck costs only 1 card. 
 
 # Gameplay
 ## Overview

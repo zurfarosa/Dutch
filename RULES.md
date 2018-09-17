@@ -66,17 +66,17 @@ As above, except player may look through their *personal discards* rather than t
 
 ## 4. Purchasing
 
-The winner of the bid, having optionally played power cards in phase 3, may purchase cards from the auction display, using cards from their offering. 
+The winner of the bid may now purchase cards from the auction display, using cards from their offering. 
 
 The cost of the auction display cards is determined by their position. The display card furthest away from the auction deck, for example, costs only one card. To pay for a card, the player takes the correct number of cards from their offering and puts them in either: 
-* their personal discards (if the purchased card matches the suit of the cards used to purchase it)
-* the auction discards (if the purchased card does not match the suit of the cards used to purchase it). 
+* their **personal discards** (if the purchased card matches the suit of the cards used to purchase it)
+* the **auction discards** (if the purchased card does not match the suit of the cards used to purchase it). 
 
 If the player is purchasing a multiple-cost card, some of the cards used to purchase it may end up in their personal discards (if they match the suit of the purchased card) and some may end up in the auction discards (if they do no match the suit).
 
 The purchased cards themselves are added to the player's *personal discards*, not to their offering. 
 
-The player may make as many purchases as he can afford, providing the player has enough cards in their offering to pay for them. 
+The player may make as many purchases as he/she can afford, providing there are enough cards in their offering to pay for them. 
 
 ## 5. Loser of bid now performs phases 3 and 4
 

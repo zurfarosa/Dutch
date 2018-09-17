@@ -21,16 +21,16 @@ Note that only cards with a bid value between six and ten have a special power.
 # Gameplay
 ## Overview
 A round consists of the following phases:
-1. Discard unwanted card from hand (both players)
-2. Bid (both players simultaneously)
-3. Play special power cards (bid-winner only)
-4. Buy cards from auction display (bid-winner only)
-5. Bid-loser performs phases 3 and 4
+1. Set aside one card from hand (both players)
+2. Bid (both players)
+3. Play special power cards (winner of bid only)
+4. Buy cards from auction display (winner of bid only)
+5. Loser of bid performs phases 3 and 4
 5. Restock auction display
 6. Draw new hand of cards 
 
-## 1. Discard unwanted card
-From their starting hand of five cards, a single card is discarded *face down* and *on top of their personal deck* (**not** into their discard pile). 
+## 1. Set aside one card
+From their starting hand of five cards, each player chooses a single card to set aside *face down* and *on top of their personal deck* (**not** into their discard pile). 
 
 ## 2. Bidding
 From their remaining hand of four cards, players play up to four cards to bid for the right to purchase from the auction display before their opponent. The suit of the bid card is irrelevant at this stage. A player does not have to play any bid cards.

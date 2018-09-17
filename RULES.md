@@ -94,8 +94,8 @@ Players now proceed to phase 1 of the next round, and will do so until the aucti
 
 # End of the game
 
-The game ends when there auction deck has been exhausted, and either there are no remaining auction display cards, or neither player wants to purchases the ones that remain.
+The game ends when the auction deck has been exhausted, and either there are no remaining auction display cards, or neither player wants to purchase the display cards that remain.
 
-At this point, players gather together their personal deck, discards and any 'cashed-in' cards, and sum their total VPs. In addition, a bonus ten VPs is awarded for any suit which a player has at least six of.
+At this point, players gather together their personal deck, discards and any 'cashed-in' cards, then sum their total VPs. In addition, a bonus ten VPs is awarded for any suit which a player has at least six of.
 
 The player with the most victory points is the winner. If players are tied for the highest score, the player with the fewest cards wins.

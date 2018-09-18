@@ -1,4 +1,4 @@
-bid,vp,power,suit,colour  
+bid,vp,power,suit,colour
 1,11,,blue,light blue
 1,11,,green,#6B8E23
 1,11,,pink,light pink
@@ -39,13 +39,13 @@ bid,vp,power,suit,colour
 8,-4,Take card of same suit from auction discards,pink,light pink
 8,-4,Take card of same suit from auction discards,orange,burnt orange
 8,-4,Take card of same suit from auction discards,grey,#D3D3D3
-9,-7,Take card of same suit from personal deck,blue,light blue
-9,-7,Take card of same suit from personal deck,green,#6B8E23
-9,-7,Take card of same suit from personal deck,pink,light pink
-9,-7,Take card of same suit from personal deck,orange,burnt orange
-9,-7,Take card of same suit from personal deck,grey,#D3D3D3
-10,-11,Take card of same suit from auction discards OR personal deck,blue,light blue
-10,-11,Take card of same suit from auction discards OR personal deck,green,#6B8E23
-10,-11,Take card of same suit from auction discards OR personal deck,pink,light pink
-10,-11,Take card of same suit from auction discards OR personal deck,orange,burnt orange
-10,-11,Take card of same suit from auction discards OR personal deck,grey,#D3D3D3
+9,-7,Take card of same suit from personal discards,blue,light blue
+9,-7,Take card of same suit from personal discards,green,#6B8E23
+9,-7,Take card of same suit from personal discards,pink,light pink
+9,-7,Take card of same suit from personal discards,orange,burnt orange
+9,-7,Take card of same suit from personal discards,grey,#D3D3D3
+10,-11,Take card of same suit from auction discards or personal deck,blue,light blue
+10,-11,Take card of same suit from auction discards or personal deck,green,#6B8E23
+10,-11,Take card of same suit from auction discards or personal deck,pink,light pink
+10,-11,Take card of same suit from auction discards or personal deck,orange,burnt orange
+10,-11,Take card of same suit from auction discards or personal deck,grey,#D3D3D3

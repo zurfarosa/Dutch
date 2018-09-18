@@ -1,4 +1,4 @@
-bid,vp,power,suit,colour  
+bid,vp,power,suit,colour
 1,11,,
 2,7,,
 3,4,,
@@ -7,5 +7,5 @@ bid,vp,power,suit,colour
 6,-1,Cash in any card of same suit or change a card's suit,
 7,-2,Duplicate a power or change a card's suit,
 8,-4,Take card of same suit from auction discards,
-9,-7,Take card of same suit from personal deck,
-10,-11,Take card of same suit from auction discards OR personal deck,
+9,-7,Take card of same suit from personal discards,
+10,-11,Take card of same suit from auction discards or personal deck,

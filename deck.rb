@@ -1,7 +1,6 @@
 require 'squib'
 require 'rubygems'
 require 'rmagick'
-# require 'fileutils'
 
 
 
@@ -31,8 +30,7 @@ Squib::Deck.new cards: data['bid'].size, layout: 'layout.yml', width:'62.4mm', h
   background color: :white
   rect layout: 'suit_band', fill_color: data['colour']
   png layout: 'bid_circle'
-  rect layout: 'mini_border' #use mini_border layout for rules images, otherwise use bleed for actual cards
-  # rect layout: 'inner_border'
+  # rect layout: 'bleed'
   # safe_zone layout:'safe'
   text layout:'bid_value', str: data['bid'].map{|i| "#{i}"}
 
@@ -44,6 +42,7 @@ Squib::Deck.new cards: data['bid'].size, layout: 'layout.yml', width:'62.4mm', h
   save_pdf file: "cards.pdf", width: '210mm', height: '297mm', trim: '3.2mm'#layout:'pdf_dims'
 end
 
+#Create smaller gifs from the pngs for use in my RULES.md, then delete the pngs
 Dir.glob('rules_images/*.png') do |path|
   img = Magick::Image::read(path)[0]
   img = img.scale(0.33).border(1,1,'black')

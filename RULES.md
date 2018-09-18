@@ -21,6 +21,8 @@ Each player is dealt a personal deck of eight cards. Players may look at these c
 
 The 24 remaining cards form the face-down auction deck. Six cards are then drawn from the auction deck and placed face-up in a row next to the auction deck. All these auction display cards have a cost - the card closest to the auction deck costs 5 cards, the next closest costs 4 cards, and so on. The card furthest from the auction deck costs only 1 card. 
 
+![Set-up](rules_images/setup.png)
+
 # Gameplay
 ## Overview
 A round consists of the following phases:

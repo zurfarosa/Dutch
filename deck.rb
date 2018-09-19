@@ -9,9 +9,8 @@ data = CSV.read 'data.csv'
 
 # open up data.csv, and add a 'suit' and 'colour' value to each card
 new_data = [data[0]]
-
-for i in 1..data.length-1 do
-  for j in 1..suits.length-1 do
+for j in 1..suits.length-1 do
+  for i in 1..data.length-1 do
     new_row = data[i].dup
     new_row[3] = suits[j][0]
     new_row[4] = suits[j][1]
@@ -38,15 +37,17 @@ Squib::Deck.new cards: data['bid'].size, layout: 'layout.yml', width:'62.4mm', h
   text layout:'vp_value', str: data['vp'].map{|i| "#{i}"}
   text layout:'power_text', str: data['power'].map{|i| "#{i}" if i != nil}
   save_png prefix:"card_", layout:'png_dims'
-  save_png dir:"rules_images", prefix:"card_", layout:'mini_png_dims'
+  save_png dir:"mini_cards", prefix:"card_", layout:'mini_png_dims'
   save_pdf file: "cards.pdf", width: '210mm', height: '297mm', trim: '3.2mm'#layout:'pdf_dims'
 end
 
 #Create smaller gifs from the pngs for use in my RULES.md, then delete the pngs
-Dir.glob('rules_images/*.png') do |path|
+Dir.glob('mini_cards/*.png') do |path|
   img = Magick::Image::read(path)[0]
-  img = img.scale(0.33).border(1,1,'black')
   file_stem = path[-11..-5]
-  img.write("rules_images/mini_" + file_stem + '.gif')
+  processed_img = img.scale(0.33).border(1,1,'black')
+  processed_img.write("mini_cards/mini_" + file_stem + '.gif')
+  processed_img = img.scale(0.165).border(1,1,'black')
+  processed_img.write("mini_cards/super_mini_" + file_stem + '.gif')
   File.delete path
 end

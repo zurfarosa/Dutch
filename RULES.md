@@ -27,7 +27,7 @@ Each player is dealt a personal deck of eight cards. Players may look at their p
 
 The 24 remaining cards form the **auction deck**, which is placed face-down between the two players. Six cards are drawn from the auction deck and placed face-up in a row next to the auction deck - these are the **auction display cards**. As the game progresses, both players will have a **personal discard pile**.
 
-![Set-up](diagrams/setup.png)
+![Set-up](diagrams/setup.png?)
 
 # Gameplay
 ## Overview
@@ -50,9 +50,9 @@ Cards are played face down and revealed simultaneously by both players - these a
 
 If the players' total bids tie, each player must add the top card from their personal deck to their bid. The bid values are then compared. If the bids still tie, another card is added from the top of the personal decks, and so on.
 
-*In the diagram below, Adam makes a bid using all four cards from his hand. The value of his bid is 4+7+4+7=22. Beth, meanwhile, uses only three cards for her bid, keeping one back in her hand to use during phase 3. The value of Beth's bid is 10+3+8=21. Adam wins the bid, so he will go first in phase 3.*
+*In the diagram below, Jean makes a bid using all four cards from her hand. The value of her bid is 4+2+8+2=16. Tom, meanwhile, uses only three cards for his bid, keeping one back in his hand to use during phase 3. The value of Tom's bid is 10+3+2=15. Jean wins the bid, so she will go first in phase 3.*
 
-![Bidding](diagrams/bidding.png)
+![Bidding](diagrams/bidding.png?)
 
 ## Phase 3. Use powers and purchase cards
 In phase three the players may play power cards and then purchase cards. The winner of the phase 2 bid goes first. Once the winner has finished playing  power cards and purchasing cards, the loser may then do the same.
@@ -76,7 +76,7 @@ When a card is played for its power, it always remains in the player's offering.
 
 *In the example below, Catherine played  two bid cards during phase 2. The value of her bid, 7+2=9, was enough to win the bid. She now adds two power cards to her offering: a blue six-bid and a blue nine-bid. The six-bid's power allows her to cash in a card of the same suit. She chooses to cash in the blue two-bid, which she puts aside until the end of the game (the advantage of this is that she no longer has a weak 'two-bid' diluting the future bidding power of her deck). Her other power card, a blue nine-bid, allows her to take a blue three-bid from her personal discards and add it to her offering. Following activation of her power cards, her offering will consist of a green seven-bid and a blue six-bid, nine-bid and three-bid.*
 
-![Powers](diagrams/powers.png?)
+![Powers](diagrams/powers.png????)
 
 ### Purchasing cards
 

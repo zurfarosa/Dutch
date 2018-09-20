@@ -10,10 +10,11 @@ bid,vp,power,suit,colour
 9,-7,,blue,light blue
 10,-11,,blue,light blue
 ,,Cash in a card from your offering,blue,light blue
+,,Change the suit of a card from your offering,blue,light blue
 ,,Duplicate a power from your offering,blue,light blue
-,,Take card from auction discards,blue,light blue
-,,Take card from personal discards,blue,light blue
-,,Take card from auction or personal discards,blue,light blue
+,,Add card from auction discards to your offering,blue,light blue
+,,Add card from personal discards to your offering,blue,light blue
+,,Add card from personal or auction discards to your offering,blue,light blue
 1,11,,green,#6B8E23
 2,7,,green,#6B8E23
 3,4,,green,#6B8E23
@@ -25,10 +26,11 @@ bid,vp,power,suit,colour
 9,-7,,green,#6B8E23
 10,-11,,green,#6B8E23
 ,,Cash in a card from your offering,green,#6B8E23
+,,Change the suit of a card from your offering,green,#6B8E23
 ,,Duplicate a power from your offering,green,#6B8E23
-,,Take card from auction discards,green,#6B8E23
-,,Take card from personal discards,green,#6B8E23
-,,Take card from auction or personal discards,green,#6B8E23
+,,Add card from auction discards to your offering,green,#6B8E23
+,,Add card from personal discards to your offering,green,#6B8E23
+,,Add card from personal or auction discards to your offering,green,#6B8E23
 1,11,,pink,light pink
 2,7,,pink,light pink
 3,4,,pink,light pink
@@ -40,10 +42,11 @@ bid,vp,power,suit,colour
 9,-7,,pink,light pink
 10,-11,,pink,light pink
 ,,Cash in a card from your offering,pink,light pink
+,,Change the suit of a card from your offering,pink,light pink
 ,,Duplicate a power from your offering,pink,light pink
-,,Take card from auction discards,pink,light pink
-,,Take card from personal discards,pink,light pink
-,,Take card from auction or personal discards,pink,light pink
+,,Add card from auction discards to your offering,pink,light pink
+,,Add card from personal discards to your offering,pink,light pink
+,,Add card from personal or auction discards to your offering,pink,light pink
 1,11,,orange,burnt orange
 2,7,,orange,burnt orange
 3,4,,orange,burnt orange
@@ -55,7 +58,8 @@ bid,vp,power,suit,colour
 9,-7,,orange,burnt orange
 10,-11,,orange,burnt orange
 ,,Cash in a card from your offering,orange,burnt orange
+,,Change the suit of a card from your offering,orange,burnt orange
 ,,Duplicate a power from your offering,orange,burnt orange
-,,Take card from auction discards,orange,burnt orange
-,,Take card from personal discards,orange,burnt orange
-,,Take card from auction or personal discards,orange,burnt orange
+,,Add card from auction discards to your offering,orange,burnt orange
+,,Add card from personal discards to your offering,orange,burnt orange
+,,Add card from personal or auction discards to your offering,orange,burnt orange

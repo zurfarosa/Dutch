@@ -32,7 +32,7 @@ Squib::Deck.new cards: data['bid'].size, layout: 'layout.yml', width:'62.4mm', h
     default.nil? ? nil : 'icons/noun_coin_938416.png'
   end
   png layout: 'bid_circle', file: bid_circle_file
-  # rect layout: 'bleed'
+  rect layout: 'bleed'
   # safe_zone layout:'safe'
   text layout:'bid_value', str: data['bid'].map{|i| "#{i}"}
   vp_frame_file = data['vp'].map do |default|
@@ -51,12 +51,12 @@ Squib::Deck.new cards: data['bid'].size, layout: 'layout.yml', width:'62.4mm', h
 end
 
 #Create smaller gifs from the pngs for use in my RULES.md, then delete the pngs
-Dir.glob('mini_cards/*.png') do |path|
-  img = Magick::Image::read(path)[0]
-  file_stem = path[-11..-5]
-  processed_img = img.scale(0.33).border(1,1,'black')
-  processed_img.write("mini_cards/mini_" + file_stem + '.gif')
-  processed_img = img.scale(0.165).border(1,1,'black')
-  processed_img.write("mini_cards/super_mini_" + file_stem + '.gif')
-  File.delete path
-end
+# Dir.glob('mini_cards/*.png') do |path|
+#   img = Magick::Image::read(path)[0]
+#   file_stem = path[-11..-5]
+#   processed_img = img.scale(0.165).border(1,1,'black')
+#   processed_img.write("mini_cards/mini_" + file_stem + '.jpg'){self.quality = 100}
+#   processed_img = img.scale(0.165).border(1,1,'black')
+#   processed_img.write("mini_cards/super_mini_" + file_stem + '.jpg'){self.quality = 100}
+#   File.delete path
+# end

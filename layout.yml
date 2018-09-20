@@ -11,9 +11,9 @@ bleed:
   y: '3.2mm' #this is the Gamecrafter's recommended bleed size
   width: '56mm'
   height: '86mm'
-  stroke_color: 'red'
+  stroke_color: 'black'
   stroke_width: 1
-  radius: '2mm'
+  # radius: '2mm'
 
 
 # The "safe zone" as defined by TheGameCrafter poker cards
@@ -61,16 +61,16 @@ power_frame:
   width: '50mm'
   height: '50mm'
   x: '6.2mm' #(62.4/2) - (50/2)
-  y: -= 260
+  y: -= 240
 
 power_text:
   extends: power_frame
   ellipsize: :none
   spacing: 2
   font_size: 50
-  width: '35mm'
-  x: '13.7mm' #(62.4/2) - (35/2)
-  y: += 200
+  width: '33mm'
+  x: '14.7mm' #(62.4/2) - (33/2)
+  y: += 185
 
 png_dims:
   trim: '3.2mm'

@@ -52,7 +52,7 @@ If the players' total bids tie, each player must add the top card from their per
 
 *In the diagram below, Jean makes a bid using all four cards from her hand. The value of her bid is 4+2+8+2=16. Tom, meanwhile, uses only three cards for his bid, keeping one back in his hand to use during phase 3. The value of Tom's bid is 10+3+2=15. Jean wins the bid, so she will go first in phase 3.*
 
-![Bidding](diagrams/bidding.png??)
+![Bidding](diagrams/bidding.png????)
 
 ## Phase 3. Use powers and purchase cards
 In phase three the players may play power cards and then purchase cards. The winner of the phase 2 bid goes first. Once the winner has finished playing  power cards and purchasing cards, the loser may then do the same.

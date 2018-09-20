@@ -38,16 +38,14 @@ bid_circle:
   # x: '22.7mm' #(62.4/2) - (17/2)
   y: '8.5mm'
   x: '8.5mm'
-  file: 'icons/noun_coin_938416.png'
   # coin by W. X. Chee from the Noun Project
 
 vp_frame:
   width: '25mm'
   height: '22mm'
-  y: '34mm'
+  y: '41mm'
   x: '18.7mm' #(62.4/2) - (25/2)
   # x: '3.2mm'
-  file: 'icons/noun_Laurel Wreath_499498.svg'
 
 vp_value:
   extends:
@@ -58,14 +56,21 @@ vp_value:
   font: 'Baskerville 90'
   align: center
 
-power_text:
+power_frame:
   extends: vp_value
+  width: '50mm'
+  height: '50mm'
+  x: '6.2mm' #(62.4/2) - (50/2)
+  y: -= 260
+
+power_text:
+  extends: power_frame
   ellipsize: :none
   spacing: 2
   font_size: 50
-  width: '40mm'
-  x: '11.2mm' #(62.4/2) - (40/2)
-  y: += 300
+  width: '35mm'
+  x: '13.7mm' #(62.4/2) - (35/2)
+  y: += 200
 
 png_dims:
   trim: '3.2mm'

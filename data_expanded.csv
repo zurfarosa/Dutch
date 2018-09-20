@@ -4,38 +4,58 @@ bid,vp,power,suit,colour
 3,4,,blue,light blue
 4,2,,blue,light blue
 5,1,,blue,light blue
-6,-1,Cash in any card of same suit,blue,light blue
-7,-2,Duplicate a power,blue,light blue
-8,-4,Take card of same suit from auction discards,blue,light blue
-9,-7,Take card of same suit from personal discards,blue,light blue
-10,-11,Take card of same suit from auction discards or personal deck,blue,light blue
+6,-1,,blue,light blue
+7,-2,,blue,light blue
+8,-4,,blue,light blue
+9,-7,,blue,light blue
+10,-11,,blue,light blue
+,,Cash in a card from your offering,blue,light blue
+,,Duplicate a power from your offering,blue,light blue
+,,Take card from auction discards,blue,light blue
+,,Take card from personal discards,blue,light blue
+,,Take card from auction or personal discards,blue,light blue
 1,11,,green,#6B8E23
 2,7,,green,#6B8E23
 3,4,,green,#6B8E23
 4,2,,green,#6B8E23
 5,1,,green,#6B8E23
-6,-1,Cash in any card of same suit,green,#6B8E23
-7,-2,Duplicate a power,green,#6B8E23
-8,-4,Take card of same suit from auction discards,green,#6B8E23
-9,-7,Take card of same suit from personal discards,green,#6B8E23
-10,-11,Take card of same suit from auction discards or personal deck,green,#6B8E23
+6,-1,,green,#6B8E23
+7,-2,,green,#6B8E23
+8,-4,,green,#6B8E23
+9,-7,,green,#6B8E23
+10,-11,,green,#6B8E23
+,,Cash in a card from your offering,green,#6B8E23
+,,Duplicate a power from your offering,green,#6B8E23
+,,Take card from auction discards,green,#6B8E23
+,,Take card from personal discards,green,#6B8E23
+,,Take card from auction or personal discards,green,#6B8E23
 1,11,,pink,light pink
 2,7,,pink,light pink
 3,4,,pink,light pink
 4,2,,pink,light pink
 5,1,,pink,light pink
-6,-1,Cash in any card of same suit,pink,light pink
-7,-2,Duplicate a power,pink,light pink
-8,-4,Take card of same suit from auction discards,pink,light pink
-9,-7,Take card of same suit from personal discards,pink,light pink
-10,-11,Take card of same suit from auction discards or personal deck,pink,light pink
+6,-1,,pink,light pink
+7,-2,,pink,light pink
+8,-4,,pink,light pink
+9,-7,,pink,light pink
+10,-11,,pink,light pink
+,,Cash in a card from your offering,pink,light pink
+,,Duplicate a power from your offering,pink,light pink
+,,Take card from auction discards,pink,light pink
+,,Take card from personal discards,pink,light pink
+,,Take card from auction or personal discards,pink,light pink
 1,11,,orange,burnt orange
 2,7,,orange,burnt orange
 3,4,,orange,burnt orange
 4,2,,orange,burnt orange
 5,1,,orange,burnt orange
-6,-1,Cash in any card of same suit,orange,burnt orange
-7,-2,Duplicate a power,orange,burnt orange
-8,-4,Take card of same suit from auction discards,orange,burnt orange
-9,-7,Take card of same suit from personal discards,orange,burnt orange
-10,-11,Take card of same suit from auction discards or personal deck,orange,burnt orange
+6,-1,,orange,burnt orange
+7,-2,,orange,burnt orange
+8,-4,,orange,burnt orange
+9,-7,,orange,burnt orange
+10,-11,,orange,burnt orange
+,,Cash in a card from your offering,orange,burnt orange
+,,Duplicate a power from your offering,orange,burnt orange
+,,Take card from auction discards,orange,burnt orange
+,,Take card from personal discards,orange,burnt orange
+,,Take card from auction or personal discards,orange,burnt orange

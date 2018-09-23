@@ -1,19 +1,7 @@
-My Awesome Game
-===============
+![Dutch logo](icons/logo.png????)
 
-Check out my awesome game! 
+**A card game by Richard Hoile**
 
-
-Objective
----------
-
-
-
-Gameplay
---------
-
-
-
-Ending the Game
----------------
-
+- For 2 players
+- Age: 10+
+- Playing time: 15 minutes

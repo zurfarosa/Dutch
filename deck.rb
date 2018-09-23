@@ -3,9 +3,10 @@ require 'rubygems'
 require 'rmagick'
 
 
-
 suits = CSV.read 'suits.csv'
 data = CSV.read 'data.csv'
+power_text = CSV.read 'powers.csv'
+
 
 # open up data.csv, and add a 'suit' and 'colour' value to each card
 new_data = [data[0]]
@@ -29,24 +30,24 @@ Squib::Deck.new cards: data['bid'].size, layout: 'layout.yml', width:'62.4mm', h
   background color: :white
   rect layout: 'suit_band', fill_color: data['colour']
   bid_circle_file = data['bid'].map do |default|
-    default.nil? ? nil : 'icons/noun_coin_938416.png'
+    default.nil? ? 'icons/coin_lightning_v2.png' : 'icons/noun_coin_938416.png'
   end
   png layout: 'bid_circle', file: bid_circle_file
   rect layout: 'bleed'
   # safe_zone layout:'safe'
   text layout:'bid_value', str: data['bid'].map{|i| "#{i}"}
-  vp_frame_file = data['vp'].map do |default|
-    default.nil? ? nil : 'icons/noun_Laurel Wreath_499498.svg'
-  end
-  svg layout:'vp_frame', file: vp_frame_file
+  # vp_frame_file = data['vp'].map do |default|
+  #   default.nil? ? nil : 'icons/noun_Laurel Wreath_499498.svg'
+  # end
+  svg layout:'vp_frame', file: 'icons/noun_Laurel Wreath_499498.svg'
   text layout:'vp_value', str: data['vp'].map{|i| "#{i}"}
   power_frame_file = data['power'].map do |default|
     default.nil? ? nil : 'icons/noun_Frame_1755979_v3.svg'
   end
-  svg layout:'power_frame', file: power_frame_file
-  text layout:'power_text', str: data['power'].map{|i| "#{i}" if i != nil}
+  # svg layout:'power_frame', file: power_frame_file
+  # text layout:'power_text', str: data['power'].map{|i| "#{power_text.join("\")}" if i != nil}
   save_png prefix:"card_", layout:'png_dims'
-  save_png dir:"mini_cards", prefix:"card_", layout:'mini_png_dims'
+  # save_png dir:"mini_cards", prefix:"card_", layout:'mini_png_dims'
   save_pdf file: "cards.pdf", width: '210mm', height: '297mm', trim: '3.2mm'#layout:'pdf_dims'
 end
 

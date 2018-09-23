@@ -40,6 +40,7 @@ bid_circle:
   x: '8.5mm'
   # coin by W. X. Chee from the Noun Project
 
+
 vp_frame:
   width: '25mm'
   height: '22mm'
@@ -58,27 +59,26 @@ vp_value:
 
 power_frame:
   extends: vp_value
-  width: '50mm'
-  height: '50mm'
-  x: '6.2mm' #(62.4/2) - (50/2)
-  y: -= 240
+  width: '60mm'
+  height: '65mm'
+  x: '1.2mm' #(62.4/2) - (60/2)
+  y: -= 180
 
 power_text:
-  extends: power_frame
   ellipsize: :none
   spacing: 2
   font_size: 50
-  width: '33mm'
-  x: '14.7mm' #(62.4/2) - (33/2)
-  y: += 185
+  width: '52mm'
+  height: '65mm'
+  x: '5.2mm' #(62.4/2) - (52/2)
+  y: '27mm'
+  font: 'Baskerville 20'
+
 
 png_dims:
   trim: '3.2mm'
-  trim_radius: '2mm'
-
-mini_png_dims:
-  trim: '3.2mm'
   # trim_radius: '2mm'
+
 
 pdf_dims:
   width: '210mm'

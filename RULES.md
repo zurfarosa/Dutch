@@ -4,7 +4,7 @@
 
 A card game for 2 players, ages 10 and up. Playing time: 15 minutes. By Richard Hoile.
 
-Players compete to buy the best cards from a Dutch auction, where the cost of cards is constantly dropping. A fine balance must be struck - the cards needed to outbid, hide and steal from your opponent during the game may not be the ones that score you the most points at the end of the game.
+Players compete to buy the best cards from a Dutch auction, where the cost of cards is constantly dropping. A fine balance must be struck - the cards needed to outbid, out-purchase and steal from your opponent during the game may not be the cards that score you the most points at the end of the game.
 
 # Objective
 

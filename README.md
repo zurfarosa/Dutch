@@ -15,4 +15,4 @@ Dutch is a quick-playing card game which fuses elements of deckbuilders, traditi
 
 Players compete to build the most valuable deck by buying cards from a Dutch auction, where the cost of cards is constantly dropping. But which cards to buy? The cards richest in victory points will not on their own allow you to outbid your opponent, or activate the powers needed to build the finest deck.
 
-![Set-up](diagrams/advert.png)
+![Set-up](icons/advert.png)

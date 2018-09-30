@@ -2,9 +2,9 @@
 
 # Intro
 
-A card game for 2 players, ages 10 and up. Playing time: 15 minutes. By Richard Hoile.
+A card game for 2 players, ages 10 and up. Playing time: 20 minutes. By Richard Hoile.
 
-Players compete to buy the best cards from a Dutch auction, where the cost of cards is constantly dropping. A fine balance must be struck - the cards needed to outbid, out-purchase and steal from your opponent during the game may not be the cards that score you the most points at the end of the game.
+Players compete to build the most valuable deck by buying cards from a Dutch auction, where the cost of cards is constantly dropping. But which cards to buy? Those richest victory points will not on their own allow you to outbid your opponent or activate the powers essential for building the finest deck.
 
 # Objective
 
@@ -23,28 +23,31 @@ All suits are identical in every respect other than their colour.
 Players should refer to non-power cards by their suit and bid value, for example 'red 1-bid' or 'blue 5-bid'.
 
 # Set-up
-Each player is dealt a personal deck of nine cards. Players may look at their personal deck, providing they shuffle it afterwards (see **Peaking at Cards** below). Each player takes the top five cards from their personal deck into their hand.
+Each player is dealt a **personal deck** of ten cards. Players can choose to discard any unwanted cards from their personal deck, replacing them with new cards. This is known as **taking a mulligan**, and may only be performed once.  The discarded cards should then be shuffled back into the main deck.
 
-The 22 remaining cards form the **auction deck**, which is placed face-down between the two players. Six cards are drawn from the auction deck and placed face-up in a row next to the auction deck - these are the **auction display cards**.
+Each player then shuffles their personal deck and places it face down in front of them. Each player then takes the top six cards from their personal deck into their hand.
+
+The 20 remaining cards form the **auction deck**, which is placed face-down between the two players. Six cards are drawn from the auction deck and placed face-up in a row next to the auction deck - these are the **auction display cards**.
 
 ![Set-up](diagrams/setup.png)
 
 # Gameplay
 ## Overview
 A round consists of the following phases:
-1. **Set aside one card from hand** (both players simultaneously)
-2. **Bid** (both players simultaneously)
-3. **Use powers and purchase cards** (first the winner of the bid, then the loser of the bid)
+1. **Set aside two cards**
+2. **Bid**
+3. **Winner purchases cards and/or activates powers**
+4. **Loser purchases cards and/or activates powers**
 5. **Restock auction display**
-6. **Draw new hand of cards** (both players simultaneously)
+6. **Draw new hand of cards**
 
 The phases are explained in more detail below.
 
 ## Phase 1. Set aside one card
-From their starting hand of five cards, each player chooses a single card to set aside *face down* and *on top of their personal deck*.
+From their starting hand of six cards, each player chooses two cards to set aside *face down* and *on top of their personal deck*.
 
 ## Phase 2. Bid
-Players now bid for the right to go first in phase 3, by playing all four cards from their hand face down. Both bids are revealed simultaneously.
+Players now bid for the right to go first in the next phase, by playing all four cards from their hand face down. Both bids are revealed simultaneously.
 
 The total value of a players's bid is the sum of each card's bid value. Power cards have a bid value of zero. The player with the higher bid is the winner.
 
@@ -54,33 +57,10 @@ If the players' total bids tie, each player must add the top card from their per
 
 ![Bidding](diagrams/bidding.png)
 
-## Phase 3. Activate powers and purchase cards
-In phase three the players may **activate a power card** and/or **purchase cards from the auction display**. The winner of the phase 2 bid goes first.
-
-### Activate powers
-
-All power cards in a player's bid can be activated. When activated, each power card may perform any one of the following powers:
-
-**Cash in a card**: Allows player to select another card *of the same suit* from their bid, and remove it from the game. Once removed, the card will no longer be part of the player's deck, but will still count towards the player's VPs at the end.
-
-**Change a card's suit**: Allows player to temporarily change the suit of another card  *of the same suit* from their bid (e.g. a red power card can turn another red card into a blue card). To indicate that the card has changed suit, its coloured band should be covered up by the power card.
-
-**Take card from auction discards, personal discards or auction display cards**: Allows player to retrieve a card that matches the suit of the power card. The taken card may then be added to the player's bid. If the taken card is a power card, then that power is in turn activated.
-
-**Steal card from opponent's bid**: As above, except player takes a card from *their opponent's bid*. This power is only available to the winner of the phase 2 bid.
-
-Power cards only act on cards that 1) of the same suit as the power card and 2) part of the player's bid (or the opponent's bid, in the case of the Steal power).
-
-After activation, power cards remain in the player's bid and can be used to purchase cards (along with any cards taken or stolen by the power card).
-
-*In the example below, Catherine has won the phase 2 bid with a bid value of 7+2+0+0=9. Now her blue and pink power cards can be activated. She uses the blue power card to cash in her blue 2-bid, which she puts aside until the end of the game (see Clarifications for an explanation of why she may want to do this). She then uses her pink power card to take the pink 2-bid from her personal discards and adds it to her bid. Her bid will now consist of four cards: a green 7-bid, a blue power card, a pink power card and a pink 2-bid.*
-''
-![Powers](diagrams/powers.png)
+## Phase 3. Winner purchases cards and/or activates powers
+The winner of the bid may now **purchase cards from the auction display** and/or **activate a power card**, any number of times and in any order.
 
 ### Purchase cards
-
-After optionally playing power cards, the player may now purchase cards from the auction display, paying for them using cards from their bid.
-
 The cost of the auction display cards is determined by their position, as illustrated below. The 5-cost card, for example, costs five cards.
 
 ![Cost of cards](diagrams/cost_of_cards.png)
@@ -89,7 +69,7 @@ To pay for a card, the player takes the correct number of cards from their bid a
 * their **personal discard pile** - if the purchased card matches the suit of the card used to purchase it.
 * the **auction discard pile** - if the purchased card does not match the suit of the card used to purchase it.
 
-The purchased cards themselves are always added to the player's *personal discard pile*, not to the bid (in this respect, purchased cards differ from cards taken or stolen using power cards).
+The purchased cards themselves are always added to the player's *personal discard pile*, not to the bid.
 
 Players may make as many purchases as they can afford.
 
@@ -103,71 +83,68 @@ If the player is purchasing a multiple-cost card, some of the cards used for pur
 
 ![Purchasing](diagrams/purchasing2.png)
 
-There may be occasions when a player will want to activate a power card **after** they have made a purchase. See **Further power card examples** below.
+### Activate power cards
+All power cards in a player's bid can be activated. Activating power cards can take place before or after purchasing cards. When activated, a power card may perform either of the following powers:
 
-### End of winner's phase 3 actions
+- **Add a power card (of any suit) from a player's personal discards to their bid**: Any extra power card added to the bid in this way is immediately activated.
+- **Purchase card at one-cost from the auction discard pile or auction display**: Allows player to purchase *any single* card from one of these two locations. If purchasing a card from the auction display, the position of the auction display card (e.g. 3-cost, 5-cost) can be ignored - all cards cost just the power card. Normal purchasing rules are followed - including the rule that the power card used for purchasing is placed in the personal discards if it matches the suit of the purchased card, or in the auction discards if it doesn't match.
+
+*In the example below, Catherine has won the phase 2 bid with a bid value of 7+2+0+8=18. She activates the blue power card to retrieve the pink power card from the personal discards, which is in turn activated and retrieves the second blue power card from the personal discards. Thhis blue power card is activated and is used to purchase the pink 6-bid from the auction display - both the pink power card and the pink 6-bid are then placed in the personal discards. At the end of this series of power activations, her bid consists of a green 7-bid, a blue 2-bid and two blue power cards, all of which can be used for purchasing cards.*
+''
+![Powers](diagrams/powers.png)
+
 After the winner of the bid has finished performing their phase 3 actions, they put any unused bid cards in their personal discards.
 
-It is now the loser of the bid's turn to perform their phase 3 actions. These are performed in the same way, but with two exceptions:
-- the loser must purchase the 1-cost card if it has not yet been purchased
-- the 'steal' power is not available to the loser
+## Phase 4. Loser purchases cards and/or activates power cards
+Now it is the loser's turn to purchase cards and/or activate power cards. There is only one difference: **the loser must receive the one-cost card for free** if it has not already been purchased.
 
-## Phase 4. Restocking the auction display
+## Phase 5. Restocking the auction display
+The auction display is restocked only after phases 3 and 4 have been performed.
 
-The auction display is restocked only after both players have performed their phase 3 actions.
-
-Any cards not purchased or taken by a power card during phase 3 will remain in the auction display, but are shifted leftwards so that they occupy the lowest cost positions, with no gaps between cards. The auction display is then restocked with new cards from the auction deck.
+Any cards not purchased during phases 3 and 4 will remain in the auction display, but are shifted leftwards so that they occupy the lowest cost positions, with no gaps between cards. The auction display is then restocked with new cards from the auction deck.
 
 *In the example below, there are only three cards left in the auction display after the players have made their purchases, in the 2-cost, 3-cost and 4-cost positions respectively. To fill in the gaps, the remaining cards are all shifted as far left as they can go, and three new cards are added from the auction deck.*
 
 ![Restocking](diagrams/restocking_auction_display.png)
 
-## Phase 5. Drawing a new hand of cards
+The example below shows how the order in which phase 3 and phase 4 actions are performed is flexible. *Frida uses her pink power card to purchase the pink 8-bid from the auction display - both cards are placed in her personal discards. She then uses her blue power card to retrieve the pink power card from her personal discards and return it to her bid. She then uses the retrieved pink power card to purchase the pink 4-bid from the auction display. She is left with the blue power card, red 3-bid and the green 2-bid in her bid, which she can use to purchase cards.*
 
-Players draw a new hand of five cards from the top of their personal deck. (The first of the five cards to be drawn will be the card discarded during phase 1.)
+![Purchasing](diagrams/purchasing3.png)
 
-If there are less than five cards in a player's personal deck, the player should shuffle their personal discards and turn them upside down to form a new personal deck. Any remaining cards from the old deck should be placed face down on top of the new deck. The player can now draw their hand of five cards from the new deck.
+## Phase 6. Drawing a new hand of cards
+
+Players draw a new hand of six cards from the top of their personal deck. (The top two cards of their personal deck will be the cards set aside during phase 1.)
+
+If there are less than six cards in a player's personal deck, the player should shuffle their personal discards and turn them face down to form a new personal deck. Any remaining cards from the old deck should be placed face down on top of the new deck. The player can now draw their hand of six cards from the new deck.
 
 When both players have drawn their hand, a new round will begin, starting at phase 1.
 
 # End of the game
 
-Play continues until 1) the auction deck is exhausted and 2) either there are no auction display cards left, or neither player wants to purchase any that remain.
+From the moment when the last card of the auction deck is added to the auction display, play will continue for one more round.
 
-At this point, players gather together their personal deck, discards and any cashed-in cards, and then sum their total VPs. **In addition, both players receives a VP bonus for each of their suits, equal to the VP of the lowest-scoring card in that suit.**
+At the end of this final round, players gather together their personal deck and discards, and then arrange these cards by suit. Points are scored as follows:
+- For the long suit (i.e. the suit in which the most cards are held): score each card
+- For all other suits, score only the two lowest-scoring cards
 
 The player with the most VPs is the winner. If players are tied for the highest score, the player with the fewest cards wins.
 
-*In the example below, the game has ended and Imran has sorted all his cards by suit to make scoring easier. He scores his suits as follows (with the final number in each sum being the bonus):*
-- Pink: 7 + 8 + 7 = 22
-- Green: 3 + 6 + 8 + 3 = 20;
-- Blue: 0 + 0 + 2 + 5 + 7 + 0 = 14
-- Red: 0 + 7 + 0 = 7
+*In the example below, the game has ended and Imran has sorted all his cards by suit to make scoring easier. He scores his suits as follows:*
+- Pink: 7 + 8  = 15
+- Green: 3 + 6 = 9
+- Blue (long suit): 0 + 0 + 2 + 5 + 7 = 14
+- Red: 0 + 7 = 7
 
 ![Restocking](diagrams/scoring.png)
 
-*Imran's total score:* 22 + 20 + 14 + 7  = 63.
+*Imran's total score:* 15 + 9 + 14 + 7  = 63.
 
-# Peaking at cards
+# Looking at cards
 
 During the game, players may look through their personal discards and the auction discards, but not those of their opponent. In addition, they may look through their personal deck, providing they shuffle it afterwards. It is not permitted to look through the auction deck at any time.
-
-# Further power card examples
-
-The example below shows how the order in which phase 3 actions are performed is flexible. Frida uses her pink 3-bid to buy the pink 4-bid from the auction display. She then uses her pink power card to retrieve the pink 3-bid from her personal discards and return it to her bid. She finally uses the retrieved pink 3-bid with her pink power card to purchase the pink 8-bid from the auction display.
-
-![Purchasing](diagrams/purchasing3.png)
-
-In the next example, Femi uses his blue power card in the following example to 'cash in' his blue 3-bid. He then uses his red power card to take the red power card from the auction discards and add it to his bid. This new red power card is in turn activated, and he uses it to temporarily change the suit of the red 4-bid to pink. His 4-bid (which is now temporarily pink) is then used to purchase the 1-cost card from the auction display - and because the purchasing card matches the colour of the purchased card, he gets to put it in his personal discards rather than losing it to the auction discards.
-
-![More about power cards](diagrams/more_about_power_cards.png)
 
 # Clarifications
 
 **Does the suit of a card matter when bidding in phase 2?** No, only the bid value of the card is relevant for bidding.
 
-**Does the bid value of a card matter when used for purchasing a card during phase 3?** No, only the suit of a the card is relevant for purchasing.
-
-**When you purchase a card, does the newly purchased card get added to the player's bid?** No - whereas a power card may retrieve a card from a pile (e.g. the auction discards) and add that card to the bid, a purchased card is never added to the bid. It is always placed immediately in the player's discards.
-
-**Why would someone want to 'cash in' a card?** By cashing in a card, that card is taken out of play until the end of the game, when it will count towards a player's victory points. There are two reasons to cash in: 1) a cashed-in card cannot be stolen by an opponent's power card; 2) if a card has a low bid-value, by cashing it in you are effectively strengthening your deck's overall bid power.
+**Does the bid value of a card matter when used for purchasing a card during phase 3/4?** No, only the suit of a the card is relevant for purchasing.

@@ -1,9 +1,11 @@
-![Dutch logo](icons/logo.png?????)
+![Dutch logo](icons/logo.png)
 
 **A card game by Richard Hoile**
 
 - For 2 players
 - Age: 10+
-- Playing time: 15 minutes
+- Playing time: 20 minutes
 
-![Set-up](diagrams/advert.png?)
+Players compete to build the most valuable deck by buying cards from a Dutch auction, where the cost of cards is constantly dropping. But which cards to buy? The cards richest in victory points will not on their own allow you to outbid your opponent, or activate the powers needed to build the finest deck.
+
+![Set-up](diagrams/advert.png)
